@@ -1,0 +1,65 @@
+
+Practical 25: Create GitHub Account, Git Repository, and Push Code
+====================================================================
+
+1. Create a GitHub account (if not already created)
+   - Visit https://github.com and sign up for a new account.
+
+2. Initialize a local repository:
+   git init
+
+3. Add your files to the staging area:
+   git add .
+
+4. Commit the changes with a meaningful message:
+   git commit -m "Initial commit"
+
+5. Create a new repository on GitHub:
+   - Go to GitHub, click "New Repository," name it, and create.
+
+6. Link your local repository to the remote GitHub repository:
+   git remote add origin <repository-url>
+
+7. Push your code to GitHub:
+   git push -u origin main
+
+8. Remove git repository
+    git remote remove origin
+
+9. remove git from cloud 
+rm -rf (file name)
+
+
+
+Practical 26: Demonstrate Push, Pull, Branch, and Merge
+====================================================================
+
+1. Clone the repository:
+   git clone <repository-url>
+
+2. Navigate to the project directory:
+   cd <project-directory>
+
+3. Create a new branch for development:
+   git checkout -b feature/new-feature
+
+4. Add your changes to staging:
+   git add .
+
+5. Commit the changes:
+   git commit -m "Added new feature"
+
+6. Push the new branch to GitHub:
+   git push origin feature/new-feature
+
+7. Switch back to the main branch:
+   git checkout main
+
+8. Pull the latest changes from the main branch:
+   git pull origin main
+
+9. Merge the feature branch into the main branch:
+   git merge feature/new-feature
+
+10. Push the merged changes to GitHub:
+    git push origin main
