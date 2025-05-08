@@ -63,3 +63,20 @@ Practical 26: Demonstrate Push, Pull, Branch, and Merge
 
 10. Push the merged changes to GitHub:
     git push origin main
+
+🔄 Workflow Example:
+You start on the main branch.
+
+You create a new branch: git checkout -b feature/login-page.
+
+You make changes, add, and commit them.
+
+You push the branch to GitHub: git push origin feature/login-page.
+
+You switch back to main: git checkout main.
+
+You pull the latest changes: git pull origin main.
+
+You merge your feature branch: git merge feature/login-page.
+
+You push the merged code to GitHub: git push origin main.
